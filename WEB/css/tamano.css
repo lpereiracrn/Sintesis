@@ -1,0 +1,50 @@
+@media (min-width: 768px){
+  .sociales {
+    width: auto;
+  }
+
+  footer .contenedor {
+    justify-content: space-between;
+
+  }
+
+}
+
+@media (min-width: 1024px){
+  .menu{
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+  }
+
+  .menu a{
+    border: none;
+  }
+
+  header label{
+    display: none;
+  }
+
+
+  #imagenes img {
+    max-width: 600px;
+    height: 500px;
+    margin-bottom: 50px;
+    float: left;
+  }
+
+
+  .text{
+    padding-bottom: 400px;
+    margin-left: 10px;
+  }
+
+  .text1{
+    padding-bottom: 450px;
+    margin-left: 10px;
+  }
+
+}
